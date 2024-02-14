@@ -221,12 +221,8 @@ select.pf-v5-c-form-control {
   }
 }
 
-// Realign the radio and checks: https://github.com/patternfly/patternfly/issues/5802
 .pf-v5-c-radio,
 .pf-v5-c-check {
-  // `baseline` is different in Firefox than Chrome & WebKit; use `normal`
-  align-items: normal;
-
   // Remove incorrect PF settings on the children
   &__label,
   &__input {
