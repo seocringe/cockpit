@@ -1,0 +1,44 @@
+[
+  {
+    "AutoRemove": false,
+    "Command": [
+      "/usr/local/bin/cockpit-tasks",
+      "--verbose"
+    ],
+    "CreatedAt": "28 minutes ago",
+    "CIDFile": "",
+    "Exited": false,
+    "ExitedAt": -62135596800,
+    "ExitCode": 0,
+    "Id": "8e4f1ea38a2c82205f6f22f42fbc809280b83d59db30cd590b62631096ff095a",
+    "Image": "quay.io/cockpit/tasks:latest",
+    "ImageID": "077e968b832ec4ec573fb0c2471f7fc81d3affb03a67c34c2d983e0f09466287",
+    "IsInfra": false,
+    "Labels": {
+      "io.buildah.version": "1.23.1",
+      "license": "MIT",
+      "maintainer": "cockpit-devel@lists.fedorahosted.org",
+      "name": "fedora",
+      "vendor": "Fedora Project",
+      "version": "39"
+    },
+    "Mounts": [
+      "/cache/images"
+    ],
+    "Names": [
+      "cockpit"
+    ],
+    "Namespaces": {},
+    "Networks": [],
+    "Pid": 38751,
+    "Pod": "",
+    "PodName": "",
+    "Ports": null,
+    "Restarts": 0,
+    "Size": null,
+    "StartedAt": 1708545970,
+    "State": "running",
+    "Status": "Up 28 minutes",
+    "Created": 1708545941
+  }
+]
